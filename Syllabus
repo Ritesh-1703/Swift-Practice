@@ -1,0 +1,276 @@
+📘 iOS APPLICATION DEVELOPMENT USING SWIFT
+(Basic → Expert | University + Industry Level)
+📖 CHAPTER 1: INTRODUCTION TO iOS DEVELOPMENT
+1.1 Mobile Application Development Overview
+Native Applications
+Hybrid Applications
+Cross Platform Applications
+Android vs iOS Development
+1.2 Apple Ecosystem
+iPhone
+iPad
+Apple Watch
+Mac
+Apple TV
+1.3 Introduction to iOS
+iOS Architecture
+Evolution of iOS
+Latest iOS Features
+1.4 Introduction to Swift
+Why Swift?
+Swift vs Objective-C
+Advantages of Swift
+1.5 Development Environment
+Installing Xcode
+Xcode Interface
+Simulator Setup
+Apple Developer Account
+📖 CHAPTER 2: SWIFT PROGRAMMING FUNDAMENTALS
+2.1 Swift Syntax
+Variables
+Constants
+Comments
+Data Types
+2.2 Operators
+Arithmetic
+Assignment
+Comparison
+Logical
+Range Operators
+2.3 Control Flow
+if else
+switch
+guard
+for loop
+while loop
+repeat while
+2.4 Functions
+Function Declaration
+Parameters
+Return Types
+Closures
+📖 CHAPTER 3: OBJECT ORIENTED PROGRAMMING IN SWIFT
+3.1 Classes
+Creating Classes
+Properties
+Methods
+Initializers
+3.2 Structures
+Struct vs Class
+Value Types
+Reference Types
+3.3 Inheritance
+Parent Class
+Child Class
+Method Overriding
+3.4 Polymorphism
+3.5 Encapsulation
+3.6 Abstraction
+3.7 Protocols
+3.8 Extensions
+📖 CHAPTER 4: ADVANCED SWIFT CONCEPTS
+4.1 Optionals
+Optional Variables
+Optional Binding
+Nil Coalescing
+Optional Chaining
+4.2 Enumerations
+4.3 Generics
+4.4 Error Handling
+do-catch
+throw
+try
+try?
+4.5 Memory Management
+ARC
+Strong References
+Weak References
+Unowned References
+📖 CHAPTER 5: COLLECTIONS IN SWIFT
+5.1 Arrays
+5.2 Dictionaries
+5.3 Sets
+5.4 Higher Order Functions
+map()
+filter()
+reduce()
+compactMap()
+flatMap()
+📖 CHAPTER 6: SWIFT CONCURRENCY
+6.1 Asynchronous Programming
+6.2 GCD (Grand Central Dispatch)
+6.3 Dispatch Queues
+6.4 Async Await
+6.5 Task
+6.6 TaskGroup
+6.7 Actors
+📖 CHAPTER 7: INTRODUCTION TO SWIFTUI
+7.1 Declarative UI
+7.2 SwiftUI Architecture
+7.3 Views
+7.4 Modifiers
+7.5 Preview Provider
+7.6 State Driven UI
+📖 CHAPTER 8: SWIFTUI LAYOUTS
+8.1 VStack
+8.2 HStack
+8.3 ZStack
+8.4 Spacer
+8.5 Group
+8.6 GeometryReader
+8.7 Grid Layouts
+8.8 Responsive Layout Design
+📖 CHAPTER 9: SWIFTUI COMPONENTS
+9.1 Text
+9.2 Image
+9.3 Button
+9.4 TextField
+9.5 SecureField
+9.6 Toggle
+9.7 Picker
+9.8 DatePicker
+9.9 List
+9.10 ScrollView
+📖 CHAPTER 10: STATE MANAGEMENT IN SWIFTUI
+10.1 @State
+10.2 @Binding
+10.3 @ObservedObject
+10.4 @StateObject
+10.5 @EnvironmentObject
+10.6 ObservableObject
+10.7 Published Properties
+📖 CHAPTER 11: NAVIGATION IN SWIFTUI
+11.1 NavigationStack
+11.2 NavigationLink
+11.3 Passing Data
+11.4 Deep Linking
+11.5 TabView
+11.6 Side Menus
+📖 CHAPTER 12: FORMS & USER INPUT
+12.1 Form
+12.2 Validation
+12.3 User Input Handling
+12.4 Keyboard Management
+12.5 FocusState
+📖 CHAPTER 13: NETWORKING
+13.1 REST API Fundamentals
+13.2 URLSession
+13.3 HTTP Methods
+GET
+POST
+PUT
+DELETE
+13.4 Codable
+13.5 JSON Parsing
+13.6 Authentication
+JWT
+Bearer Tokens
+13.7 Error Handling
+📖 CHAPTER 14: LOCAL STORAGE
+14.1 UserDefaults
+14.2 Keychain
+14.3 FileManager
+14.4 Data Persistence
+📖 CHAPTER 15: DATABASE DEVELOPMENT
+15.1 SQLite
+15.2 Core Data
+Entities
+Relationships
+Fetch Requests
+Migrations
+15.3 SwiftData (Latest)
+📖 CHAPTER 16: MVVM ARCHITECTURE
+16.1 MVC
+16.2 MVP
+16.3 MVVM
+16.4 Repository Pattern
+16.5 Clean Architecture
+📖 CHAPTER 17: DEPENDENCY INJECTION
+17.1 DI Concepts
+17.2 Constructor Injection
+17.3 Service Injection
+17.4 Environment Injection
+📖 CHAPTER 18: PUSH NOTIFICATIONS
+18.1 APNs
+18.2 Notification Permissions
+18.3 Local Notifications
+18.4 Remote Notifications
+18.5 Firebase Cloud Messaging
+📖 CHAPTER 19: DEVICE FEATURES
+19.1 Camera
+19.2 Photo Library
+19.3 GPS & Location
+19.4 Maps
+19.5 Contacts
+19.6 Biometrics
+Face ID
+Touch ID
+19.7 File Picker
+📖 CHAPTER 20: FIREBASE INTEGRATION
+20.1 Firebase Setup
+20.2 Authentication
+20.3 Firestore
+20.4 Storage
+20.5 Analytics
+20.6 Crashlytics
+20.7 Push Notifications
+📖 CHAPTER 21: ANIMATIONS
+21.1 Implicit Animations
+21.2 Explicit Animations
+21.3 Matched Geometry Effect
+21.4 Transitions
+21.5 Gesture Animations
+📖 CHAPTER 22: TESTING & DEBUGGING
+22.1 Unit Testing
+22.2 UI Testing
+22.3 XCTest Framework
+22.4 Debugger
+22.5 Instruments
+22.6 Memory Leak Detection
+📖 CHAPTER 23: PERFORMANCE OPTIMIZATION
+23.1 Memory Optimization
+23.2 Lazy Loading
+23.3 Efficient Rendering
+23.4 App Launch Optimization
+23.5 Background Processing
+📖 CHAPTER 24: SECURITY
+24.1 Secure Storage
+24.2 Keychain
+24.3 SSL Pinning
+24.4 Data Encryption
+24.5 App Transport Security
+📖 CHAPTER 25: APP STORE DEPLOYMENT
+25.1 Certificates
+25.2 Provisioning Profiles
+25.3 App Signing
+25.4 Archive Build
+25.5 TestFlight
+25.6 App Store Connect
+25.7 App Submission Process
+25.8 App Review Guidelines
+📖 CHAPTER 26: ADVANCED iOS DEVELOPMENT
+26.1 UIKit Interoperability
+26.2 Combine Framework
+26.3 Swift Package Manager
+26.4 Modular Architecture
+26.5 Offline First Applications
+26.6 Background Tasks
+26.7 WidgetKit
+26.8 Live Activities
+26.9 App Clips
+📖 CHAPTER 27: EXPERT LEVEL TOPICS
+27.1 Large Scale Application Design
+27.2 Enterprise Architecture
+27.3 Performance Profiling
+27.4 Production Debugging
+27.5 Code Reviews
+27.6 CI/CD Pipelines
+27.7 Fastlane
+27.8 GitHub Actions
+27.9 Team Collaboration
+🎓 FINAL OUTCOMES
+
+After completing this syllabus, you will be able to:
+
+✅ Develop complete iOS applications using Swift & SwiftUI
+✅ Build production-ready applications
