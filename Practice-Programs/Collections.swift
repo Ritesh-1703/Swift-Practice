@@ -18,3 +18,7 @@ std["Eve"] = 21
 if let age = std["Alice"]{
     print ("Alice's age is", age)
 }
+
+// sets 
+var unique : Set<Int> = [1, 2, 3, 4, 5]
+
