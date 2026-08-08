@@ -17,6 +17,10 @@ switch move {
     case .east:
         print("Moving east")
     case .west:
-        print("Moving west")    
+        print("Moving west") 
+
+    default:
+        print("Unknown direction")   
 }
 
+S
