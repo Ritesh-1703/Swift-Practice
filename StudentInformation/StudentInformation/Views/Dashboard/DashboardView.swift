@@ -8,30 +8,45 @@
 import SwiftUI
 
 struct DashboardView: View {
+    
+    @State private var showWelcome = true
+    
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 20){
-                Text("Good Morning,")
-                    .font(.title2)
                 
-                Text("Ritesh Dhamale")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
+                if showWelcome{
+                    Text("Welcome to Student Hub")
+                        .font(.title)
+                        .fontWeight(.bold)
+                }else{
+                    Text("Good Morning,")
+                        .font(.title2)
+                    
+                    Text("Ritesh Dhamale")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                    
+                    StudentHeaderView()
+                    
+                    Text("Academic Overview")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    
+                    AcadamicOverView()
+                    
+                    Text("Subjects")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    
+                    SubjectListView()
+                    
+                    
+                }
                 
-                StudentHeaderView()
-                
-                Text("Academic Overview")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                
-                AcadamicOverView()
-                
-                Text("Subjects")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                
-                SubjectListView()
-                
+                Button("See Student Details"){
+                    showWelcome.toggle()
+                }
                 
             }
             .padding()
