@@ -19,6 +19,9 @@ struct DashboardView: View {
                     Text("Welcome to Student Hub")
                         .font(.title)
                         .fontWeight(.bold)
+                    
+                    Divider()
+                    
                 }else{
                     ContentView()
                 }
@@ -36,6 +39,14 @@ struct DashboardView: View {
                 NavigationLink("Edit Student Profile"){
                     StudentProfileView()
                 }
+                
+                Divider()
+                
+                NavigationLink("View Student List"){
+                    StudentListView()
+                }
+                
+
             }
             .padding()
         }
