@@ -20,7 +20,7 @@ struct DashboardView: View {
                         .font(.title)
                         .fontWeight(.bold)
                 }else{
-                   ContentView()
+                    ContentView()
                 }
                 if showWelcome{
                     Button("See Student Details"){
@@ -30,6 +30,11 @@ struct DashboardView: View {
                     Button("Home"){
                         showWelcome.toggle()
                     }
+                }
+                Divider()
+                
+                NavigationLink("Edit Student Profile"){
+                    StudentProfileView()
                 }
             }
             .padding()

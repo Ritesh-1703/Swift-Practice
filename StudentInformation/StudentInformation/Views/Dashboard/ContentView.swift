@@ -31,10 +31,6 @@ struct ContentView: View {
         
         SubjectListView()
         
-        NavigationLink("Edit Student Profile"){
-            StudentProfileView()
-        }
-        
     }
 }
 
