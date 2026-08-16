@@ -100,8 +100,8 @@ struct StudentProfileView: View {
                     Text("Semester 5")
                         .tag("Semester 5")
                     
-                    Text("Semester 5")
-                        .tag("Semester 5")
+                    Text("Semester 6")
+                        .tag("Semester 6")
                 }
                 
                 DatePicker(
