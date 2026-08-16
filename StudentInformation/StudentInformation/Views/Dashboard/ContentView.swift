@@ -37,6 +37,7 @@ struct ContentView: View {
             }
             .padding(.horizontal, 16)
         }
+        .navigationTitle("Student Details")
     }
 }
 
