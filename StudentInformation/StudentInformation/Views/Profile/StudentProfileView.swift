@@ -16,7 +16,7 @@ struct StudentProfileView: View {
     @State private var semester = "Semester 3"
     @State private var birthDate =  Date()
     @State private var notificationsEnabled = true
-
+    
     var body: some View {
         ScrollView{
             
@@ -32,8 +32,38 @@ struct StudentProfileView: View {
                 Group{
                     
                     Text("Student Name")
-            
+                    
+                    TextField(
+                        "Enter your name",
+                        text: $studentName
+                    )
+                    .textFieldStyle(.roundedBorder)
                 }
+                
+                Group{
+                    
+                    Text("Email")
+                    
+                    TextField(
+                        "Enter your email",
+                        text: $email
+                    )
+                    .textFieldStyle(.roundedBorder)
+                }
+                
+                Group{
+                    
+                    Text("Password")
+                    
+                    TextField(
+                        "Enter your password ",
+                        text: $password
+                    )
+                    .textFieldStyle(.roundedBorder)
+                }
+                
+                
+                
             }
         }
     }
