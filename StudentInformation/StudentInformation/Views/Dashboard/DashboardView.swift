@@ -24,6 +24,8 @@ struct DashboardView: View {
                     .font(.title2)
                     .fontWeight(.bold)
                 
+                AcadamicOverView()
+                
                 Text("Subjects")
                     .font(.title2)
                     .fontWeight(.bold)
