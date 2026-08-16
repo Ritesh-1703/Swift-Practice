@@ -55,7 +55,7 @@ struct StudentProfileView: View {
                     
                     Text("Password")
                     
-                    TextField(
+                    SecureField(
                         "Enter your password ",
                         text: $password
                     )
