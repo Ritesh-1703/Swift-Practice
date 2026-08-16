@@ -30,6 +30,8 @@ struct DashboardView: View {
                     .font(.title2)
                     .fontWeight(.bold)
                 
+                SubjectListView()
+                
                 
             }
             .padding()
