@@ -20,32 +20,7 @@ struct DashboardView: View {
                         .font(.title)
                         .fontWeight(.bold)
                 }else{
-                    Text("Good Morning,")
-                        .font(.title2)
-                    
-                    Text("Ritesh Dhamale")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                    
-                    StudentHeaderView()
-                    
-                    Text("Academic Overview")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    
-                    AcadamicOverView()
-                    
-                    Text("Subjects")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    
-                    SubjectListView()
-                    
-                    NavigationLink("Edit Student Profile"){
-                        StudentProfileView()
-                    }
-                    
-                    
+                   ContentView()
                 }
                 if showWelcome{
                     Button("See Student Details"){
