@@ -43,11 +43,15 @@ struct DashboardView: View {
                     
                     
                 }
-                
-                Button("See Student Details"){
-                    showWelcome.toggle()
+                if showWelcome{
+                    Button("See Student Details"){
+                        showWelcome.toggle()
+                    }
+                }else{
+                    Button("Home"){
+                        showWelcome.toggle()
+                    }
                 }
-                
             }
             .padding()
         }
