@@ -12,7 +12,7 @@ struct StudentProfileView: View {
     @State private var studentName = "Ritesh Dhamale"
     @State private var email = "ritesh@gmail.com"
     @State private var password = ""
-    @State private var cource = "MCA"
+    @State private var course = "MCA"
     @State private var semester = "Semester 3"
     @State private var birthDate =  Date()
     @State private var notificationsEnabled = true
@@ -62,6 +62,25 @@ struct StudentProfileView: View {
                     .textFieldStyle(.roundedBorder)
                 }
                 
+                
+                Picker(
+                    "Course",
+                    selection: $course
+                ){
+                    Text("MCA")
+                        .tag("MCA")
+                    
+                    Text("MBA")
+                        .tag("MBA")
+                    
+                    Text("BCS")
+                        .tag("BCS")
+                    
+                    Text("BCA")
+                        .tag("BCA")
+                }
+                
+                
                 Picker(
                     "Semester",
                     selection: $semester
@@ -77,10 +96,42 @@ struct StudentProfileView: View {
                     
                     Text("Semester 4")
                         .tag("Semester 4")
+                    
+                    Text("Semester 5")
+                        .tag("Semester 5")
+                    
+                    Text("Semester 5")
+                        .tag("Semester 5")
                 }
                 
+                DatePicker(
+                    "Date of Birth",
+                    selection: $birthDate,
+                    displayedComponents:  .date
+                )
+                
+                Toggle(
+                    "Enable Notifications",
+                    isOn: $notificationsEnabled
+                
+                )
+                
+                Button ("Save Profile"){
+                    print("Profile Saved")
+                    print("Name: \(studentName)")
+                    print("Email: \(email)")
+                    print("Course: \(course)")
+                    print("Semester: \(semester)")
+                    print("Notifications: \(notificationsEnabled)")
+                }
+                .buttonStyle(.borderedProminent)
+                .frame(maxWidth: .infinity)
+                
+                
             }
+            .padding()
         }
+        .navigationTitle("Profile")
     }
 }
 
