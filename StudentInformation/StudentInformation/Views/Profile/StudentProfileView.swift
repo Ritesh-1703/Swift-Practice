@@ -62,7 +62,22 @@ struct StudentProfileView: View {
                     .textFieldStyle(.roundedBorder)
                 }
                 
-                
+                Picker(
+                    "Semester",
+                    selection: $semester
+                ){
+                    Text("Semester 1")
+                        .tag("Semester 1")
+                    
+                    Text("Semester 2")
+                        .tag("Semester 2")
+                    
+                    Text("Semester 3")
+                        .tag("Semester 3")
+                    
+                    Text("Semester 4")
+                        .tag("Semester 4")
+                }
                 
             }
         }
