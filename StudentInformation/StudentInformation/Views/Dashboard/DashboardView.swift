@@ -1,9 +1,9 @@
-//
-//  DashboardView.swift
-//  StudentInformation
-//
-//  Created by Admin on 16/08/26.
-//
+    //
+    //  DashboardView.swift
+    //  StudentInformation
+    //
+    //  Created by Admin on 16/08/26.
+    //
 
 import SwiftUI
 
@@ -15,25 +15,17 @@ struct DashboardView: View {
         ScrollView{
             VStack(alignment: .leading, spacing: 20){
                 
-                if showWelcome{
-                    Text("Welcome to Student Hub")
-                        .font(.title)
-                        .fontWeight(.bold)
-                    
-                    Divider()
-                    
-                }else{
+                Text("Welcome to Student Hub")
+                    .font(.title)
+                    .fontWeight(.bold)
+                
+                Divider()
+                NavigationLink("See Student Details"){
                     ContentView()
                 }
-                if showWelcome{
-                    Button("See Student Details"){
-                        showWelcome.toggle()
-                    }
-                }else{
-                    Button("Home"){
-                        showWelcome.toggle()
-                    }
-                }
+                
+                
+                
                 Divider()
                 
                 NavigationLink("Edit Student Profile"){
@@ -46,10 +38,10 @@ struct DashboardView: View {
                     StudentListView()
                 }
                 
-
+                
             }
-            .padding()
         }
+        .padding(.horizontal,16)
     }
 }
 

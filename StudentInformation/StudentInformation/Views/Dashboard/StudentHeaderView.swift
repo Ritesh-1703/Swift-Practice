@@ -33,6 +33,10 @@ struct StudentHeaderView: View {
             
             Spacer()
         }
+        .background(.white.opacity(0.9))
+        .clipShape(
+            RoundedRectangle(cornerRadius: 12)
+        )
     }
 }
 
