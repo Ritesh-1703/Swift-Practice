@@ -11,7 +11,9 @@ import SwiftUI
 struct StudentInformationApp: App {
     var body: some Scene {
         WindowGroup {
-            DashboardView()
+            NavigationStack{
+                DashboardView()
+            }
         }
     }
 }
