@@ -69,11 +69,9 @@ struct StudentListView: View {
                 }
             }
             
-            Divider()
             
             Text("List using Array")
             
-            Divider()
             
             ForEach(students){ student in
                 
