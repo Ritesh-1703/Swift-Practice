@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct AcadamicOverView: View {
-   let columns = [
-    GridItem(.flexible()),
-    GridItem(.flexible())
-   ]
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
     var body : some View {
         LazyVGrid(columns: columns, spacing: 16) {
             AcadamicCardView(
-                title: "CGPA"
+                title: "CGPA",
                 value: "8.9"
             )
             
+            AcadamicCardView(title: "Attendance",value: "92%")
+            
+            AcadamicCardView(title:"Subjects", value: "6")
+            
+            AcadamicCardView(title: "Rank", value: "12")
             
         }
     }
