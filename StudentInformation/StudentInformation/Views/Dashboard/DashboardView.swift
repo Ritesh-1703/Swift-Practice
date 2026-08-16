@@ -41,6 +41,10 @@ struct DashboardView: View {
                     
                     SubjectListView()
                     
+                    NavigationLink("Edit Student Profile"){
+                        StudentProfileView()
+                    }
+                    
                     
                 }
                 if showWelcome{
