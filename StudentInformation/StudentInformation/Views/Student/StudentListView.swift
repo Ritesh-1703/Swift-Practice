@@ -69,6 +69,28 @@ struct StudentListView: View {
                 }
             }
             
+            Divider()
+            
+            Text("List using Array")
+            
+            Divider()
+            
+            ForEach(students){ student in
+                
+                HStack{
+                    Image(systemName: "person.circle.fill")
+                        .font(.title)
+                    
+                    VStack(alignment: .leading){
+                        Text(student.name)
+                            .font(.headline)
+                        
+                        Text(" \(student.course) . \(student.semester)")
+                            .foregroundStyle(.secondary)
+                    }
+                }
+            }
+            
         }
         .navigationTitle("Students")
         
